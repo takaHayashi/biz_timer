@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>デジタルＧ：チェックリスト</title>
+<link type="image/x-icon" id="favicon" rel="icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/comon.css">
+<link rel="stylesheet" type="text/css" href="css/timer.css">
+<link rel="stylesheet" type="text/css" href="css/toastr.min.css">
+<link rel="stylesheet" type="text/css" href="css/tooltip.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/timer.js"></script>
+<script type="text/javascript" language="javascript" src="js/fav.js"></script>
+<script type="text/javascript" language="javascript" src="js/tooltip.js"></script>
+<script type="text/javascript" language="javascript" src="js/toastr.min.js"></script>
+<script>
+/* --------------------------------------------------------------
+ ★ 左カラムの処理の概要 ★
+この「index.html」と同じ階層にある「menu.json」をすべて読み込んで以下のように表示する。
+
+  "big_thema": "ニュース配信",// 左カラムの柱見出し
+  "set":[// とあるbig_themaをひとくくりにするのが「set」
+    {
+      "genre": "早番（平日）", // 左カラムに表示される文字列
+      "title": "早番（平日 7:00～15:00）", // メインエリアに表示される文字列
+      "target_json": "news_haya1_check_list" メインエリアに読み込まれるjsonファイル名
+    },
+    {
+      ........
+      ........
+--------------------------------------------------------------
+★ $.ajaxSetup({async: false}) の説明 ★
+$.ajax()や$.getJson()は非同期に動作するため、処理が正常に完了する前に動いてしまう。
+そのため、同期が完了してからjavaScriptの処理を動かすため、$.ajaxSetup()関数で「async: false」を使う
+-------------------------------------------------------------- */
+
+$(document).ready(function() {
+  $.ajaxSetup({async: false});
+  for(let n = 1; n <= 1; n++){
+    var url = `menu.json`;
+    $.getJSON(url, function(list){
+      for(var i in list){
+        var h ="";
+        if(list[i].big_thema != ""){ // 変数「h」に、最初は[big_thema]を格納
+          h = h + '<p class="sidebar-heading"><span>' + list[i].big_thema + '</span></p>';
+
+/* for文で jsonの「set」の中を見ていき、「set」の中に値があるだけ繰り返す
+画面には「genre」を出し、それが押下されたときは「list」に「target_json」の値を、「title」にjsonの「title」を入れる
+ $("div#side").append(h);でサービス画面に表示 */
+
+          for(var j in list[i].set){ 
+            h = h + '<ul class="sidebar-links sidebar-group-items"><li><a href="?list='+ list[i].set[j].target_json + '&title='+ list[i].set[j].title + '" class="sidebar-link">' +  list[i].set[j].genre + '</a></li></ul>'; 
+          }
+          $("div#side").append(h);
+        }
+      }
+    });
+  }
+
+
+// haya,osoは使っていない。削除してもいいかも。その時は「setPreference」からも削除すること
+  var haya = ' ';
+  var oso = ' ';
+
+/* 
+「new URL(document.location)).searchParams」で現在のURLから部品を取り出し、変数「params」に格納
+・「params.get('title')」で変数「params」のtitleの部分を抜き出して、変数「title」に格納
+・「params.get('list')」で変数「params」のlistの部分を抜き出して、変数「list」に格納
+ */
+
+  var params = (new URL(document.location)).searchParams;
+  var title = params.get('title');
+  var queryVal = params.get('list');
+
+/*
+ titleに何も値がない時に「ニュース配信」というワードを入れる。
+左カラムのどこも押されていないときに、「undefined」と表示されることへの対策
+*/
+  if (!title) {
+    title = 'ニュース配信 ';
+  }
+/*
+下の function「setPreference」に変数に格納した「title」「queryVal」「haya」「oso」を送る
+setintervalの処理を始める。ファイルは別で「timer.js」にfunctionが書かれている 
+*/
+  setPreference(title,queryVal,haya,oso);
+  setinterval();
+
+});
+
+/*-----------------------------------------------------------------------------
+「setPreference」でメインカラム（右カラム）で表示する値を取得してサービス画面に表示する
+Url = queryVal+".json"で受け取った「queryVal」に「.json」を足して、そのファイルを「getJSON」で読み込み
+jsonに書かれている以下のプロパティ値をHTMLにセットしていく
+
+・"title": "早番（7:00～16:00）"    //画面に表示されるタイトル
+・"time_zone": 7,                   //作業時間帯を制御。同じ「time_zone」なら同じリスト内に表示
+・"position": "left",               //縦２列表示なので、表示の左右の位置の指定
+・"time": "07:15",                  //タイマーが判定する時間。これを過ぎて作業済みチェックがないとトースト通知が出る
+・"job": "【07:15】ＴＶの確認",     //画面に表示される仕事内容
+・"tooltip": "ＴＶ画面の確認",      //「？」マークをクリックした時の作業のヒント
+・"url": "",                        //簡易マニュアルURL
+・"ur2": "./manual/定時配信.pdf",   //基準書URL
+・"toasterTitle": "ＴＶの確認",     //トースト通知のタイトル
+・"toasterBody": "データ放送画面で" //トースト通知の本文
+----------------------------------------------------------------------------- */
+function setPreference(title,queryVal,haya,oso){
+  $("div#wrap").append("<h2>"+title+"チェックリスト<h2>");
+  for(let n = 1; n <= 1; n++){
+    var url = queryVal+".json"; //受け取った「queryVal」に「.json」を足して、そのファイルを「getJSON」で読み込む
+    $.getJSON(url, function(list){
+      for(var i in list){
+        var h ="";
+         var left_con ="";
+        var right_con ="";
+
+/*
+time_zoneの値を見て以下のif文を動かす。現在は0時から28時（翌日AM4:00）までで、理由は、当日AM2:00と、翌日AM2:00（26:00）の作業を分けるため
+*/
+        if(list[i].time_zone >= 0 && list[i].time_zone <= 28){ 
+          h = h + '<hr>'; // time_zoneごとに、罫線を引く
+          for(var j in list[i].set){ // time_zoneごとのsetの値をfor文で表示する
+
+/*
+jsonの[position]の値を見て表示を左右させる。一つの「time_zone」に右が3つで、左は0などに並んでも、表示が意図通りになるように、
+左表示なら一旦「left_con」、右なら「right_con」にいれる。それを、以下で表示。
+"<div class='pos_left'>" + left_con + "</div><div class='pos_right'>" + right_con + "</div>"
+*/
+            if(list[i].set[j].position == "left"){
+              left_con = left_con + '<span class="view_timer' + n + '" startTime' + n + '="'+ list[i].set[j].time + '"><span><input type="checkbox" id="box-' + n +'" name="cb' + n + '" value="' + n + '"><label class="list" for="box-' + n + '"></label><div class="shigoto" id="warning' + n+ '">' + list[i].set[j].job;
+                left_con = left_con + '<a href="#" class="tgTtip" data-tooltip="'+list[i].set[j].tooltip;
+              if(list[i].set[j].url != ""){
+                left_con = left_con + '<br />・参照は<a href=\''+list[i].set[j].url+'\' target=\'_blank\' class=\'link_wiki\'>こちら</a>';
+              }
+              if(list[i].set[j].ur2 != ""){
+                left_con = left_con + '<br />・基準書は<a href=\'' + list[i].set[j].ur2 + '\' target=\'_blank\' class=\'link_wiki\'>こちら</a>';
+              }
+              left_con = left_con + '"><img src=\'icons/hint.png\' title=\'あれっと思ったらここをクリック\' class=\'hint\' /></a></div>';
+              n = n + 1;
+            }else{
+              right_con = right_con + '<span class="view_timer' + n + '" startTime' + n + '="'+ list[i].set[j].time + '"><span><input type="checkbox" id="box-' + n +'" name="cb' + n + '" value="' + n + '"><label class="list" for="box-' + n + '"></label><div class="shigoto" id="warning' + n+ '">' + list[i].set[j].job;
+              right_con = right_con + '<a href="#" class="tgTtip" data-tooltip="'+list[i].set[j].tooltip;
+              if(list[i].set[j].url != ""){
+                right_con = right_con + '<br />・参照は<a href=\''+list[i].set[j].url+'\' target=\'_blank\' class=\'link_wiki\'>こちら</a>';
+              }
+              if(list[i].set[j].ur2 != ""){
+                right_con = right_con + '<br />・基準書は<a href=\'' + list[i].set[j].ur2 + '\' target=\'_blank\' class=\'link_wiki\'>こちら</a>';
+              }
+              right_con = right_con + '"><img src=\'icons/hint.png\' title=\'あれっと思ったらここをクリック\' class=\'hint\' /></a></div>';
+              n = n + 1;
+            }
+          }
+          h = h + "<div class='pos_left'>" + left_con + "</div><div class='pos_right'>" + right_con + "</div>";
+          $("div#wrap").append(h);
+        }
+      }
+
+/*  
+「input type="checkbox"」の該当の順番に対して、「sessionStorage.getItem」にtrueがあればチェックをONにする。
+ページをリロードしても、チェックが外れないためブラウザのセッツションに」記憶
+*/
+      for(let c = 1; c <= n; c++){
+        if(window.sessionStorage.getItem(['check' + c])== 'true'){
+          $('#box-'+ c).prop("checked",true);
+        }
+      }
+    });
+  }
+  $.ajaxSetup({async: true});
+}
+</script>
+</head>
+<body>
+<header class="navbar">
+  <div class="sidebar-button">
+    日経編集制作センター出番進行表
+  </div>
+</header>
+<aside class="sidebar">
+  <ul class="sidebar-links">
+    <li>
+      <section class="sidebar-group depth-0">
+        <div id="side"></div>
+      </section>
+    </li>
+  </ul>
+</aside>
+<main class="page">
+  <div class="boxes">
+    <form id="f0">
+      <div id="wrap"></div>
+    </form>
+  </div>
+</main>
+<audio id='sound' preload="auto" src="sound/timer.mp3" type="audio/mp3"></audio>
+</body>
+</html>

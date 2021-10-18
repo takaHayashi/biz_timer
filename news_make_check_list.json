@@ -1,0 +1,540 @@
+[
+	{
+		"title": "市況番（9:00～17:00）：チェックリスト"
+	},
+	{
+		"time_zone": 8,
+		"set":[
+			{
+				"position": "left",
+				"time": "09:03",
+				"job": "★朝の３点チェック",
+				"tooltip": "【作業前の３点チェック】ＬＩＢＯＲの２番号宛てにＦＡＸ〔日経リサーチ社会情報部マクログループ Fax:03 5296 5139 ）<br>ＬＩＢＯＲの作業確認は基準書をクリック、 デジタル事業Ｂ to Ｂユニット・コンテンツ開発部 Fax: 2858〕、ＦＭメールの確認〔出社時点で送出済み 8:00 。 メール が 受信できているかを 監視 端末で確認〕、天気配信の確認〔QUICK 端末で共同電 2 本＜天気概況＞＜［各地の●日の天気予報］▽札幌…＞ の配信 を確認する〕",
+				"url": "",
+				"ur2": "./manual/6-03_LIBOR .pdf",
+				"toasterTitle": "作業前に朝の３点チェック",
+				"toasterBody": "LIBORはQUICKの画面を印刷してFAX送信"
+			},
+			{
+				"position": "left",
+				"time": "09:03",
+				"job": "前営業日の株価（高・安）",
+				"tooltip": "【作業前に】<br>前（営業）日の株価の高・安をツールに登録<br>↑上がっていれば△に、↓下がっていれば▲に<br>１面のビューアーでマーケットを確認↓参照をクリック",
+				"url": "https://www.nikkei.com/paper/",
+				"ur2": "",
+				"toasterTitle": "市況の作業前に",
+				"toasterBody": "株価の高・安でチェックを！"
+			},
+			{
+				"position": "left",
+				"time": "09:03",
+				"job": "【08:45】為替８時３０分",
+				"tooltip": "【為替８時３０分】<br>記事ID：｢TSOiMF01｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)<br><font color='#00FFFF'><b>確認→順位付け画面「Ｍ８」</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】配信エラー対応",
+				"tooltip": "【配信エラー対応】NEO運管「配信制御」の監視。一次配信のみ（※二次配信のチェックは外す）。ステータスが「配信異常あり」になったら再送処理する",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "",
+				"toasterBody": "即時対応でなくてＯＫ"
+			}
+		]
+	},
+	{
+		"time_zone": 9,
+		"set":[
+			{
+				"position": "left",
+				"time": "09:25",
+				"job": "【09:20】東証寄り付き",
+				"tooltip": "【東証寄り付き】<br>記事ID：｢TSOiSS11｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)<br><font color='#00FFFF'><b>確認→順位付け画面「Ｍ８」</b></font>",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証寄り付き",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:00",
+				"job": "【09:50】公社債インデックス",
+				"tooltip": "【公社債インデックス】<br>記事ID：｢SH7IAA04｣　ジャンル：｢H3・市況数表｣<br>メールと 比較、見出しに当日の日付を入力。メール未着はデータ事業部に問い合わせ（☎：２５８０）<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「外為金利関数表」と「NIKKEI Report」</b></font>",
+				"url": "",
+				"ur2": "./manual/2-05_日経公社債インデックス配信.pdf",
+				"toasterTitle": "公社債インデックス",
+				"toasterBody": "ツールにデータが届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:05",
+				"job": "【09:00】円相場・前日終値",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br><B>前日終値を忘れずに</b>をコピー、１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場・前日終値",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "09:20",
+				"job": "【09:15】日経平均",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br>ＵＳＢ経由で株為替ツールで作成。9:35分のM8送出に間に合えばＯＫ。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：寄り付き",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "left",
+				"time": "10:10",
+				"job": "【10:00】貴金属地金",
+				"tooltip": "【貴金属地金】<br>記事ID：｢SQ4iAAD8｣　ジャンル「XT｣を｢XG・数表分割｣に変更し送出<br>データ未着は経済データ編集部に問い合わせ（☎：２１５５）",
+				"url": "",
+				"ur2": "./manual/2-06_貴金属地金.pdf",
+				"toasterTitle": "貴金属地金",
+				"toasterBody": "速報ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:25",
+				"job": "【10:20】為替１０時",
+				"tooltip": "【為替１０時】<br>記事ID:｢TSOiMF03｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１０時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:25",
+				"job": "【10:20】東証１０時",
+				"tooltip": "【東証１０時】<br>記事ID：｢TSOiSS12｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証１０時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "10:05",
+				"job": "【10:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１０時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "10:05",
+				"job": "【10:00】日経平均",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br>ＵＳＢ経由で株為替ツールで作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：１０時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "10:10",
+				"job": "金曜 【10:10頃】来週の紙面予定を印刷",
+				"tooltip": "【来週の紙面予定を保存】<br>金曜日にメールで届く来週の紙面予定を印刷する。保存は早番。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "来週の紙面予定を印刷",
+				"toasterBody": "保存はＳ番"
+			},
+			{
+				"position": "right",
+				"time": "10:20",
+				"job": "【10:20】対顧客電信相場",
+				"tooltip": "【対顧客電信相場】<br>記事ID:｢SM7iAA03｣　ジャンル:｢XG・数表分割｣<br>ウィンドウに数表が入ったら作業開始<br><font color='#00FFFF'><b>確認<br> QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」→「Today's Exchange Rates of Major Cuprenci」</b></font>",
+				"url": "https://www.nikkei.com/article/DGXLMSM7IAAD3_Q0A430C2000000/",
+				"ur2": "./manual/2-07_対顧客電信相場.pdf",
+				"toasterTitle": "対顧客電信相場",
+				"toasterBody": "QUICKのウゥンドウにデータが来ていませんか？"
+			}
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+			{
+				"position": "left",
+				"time": "11:50",
+				"job": "【11:45】東証前引け",
+				"tooltip": "【東証前引け】<br>記事ID：｢TSOiSS13｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証前引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "11:50",
+				"job": "【11:45】新興株前引け",
+				"tooltip": "【振興株前引け】<br>記事ID：｢TSOiSST1｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/",
+				"ur2": "./manual/2-09_新興市場.pdf",
+				"toasterTitle": "新興株前引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "11:05",
+				"job": "【11:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１１時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "11:37",
+				"job": "【11:30】日経平均前引け <B>売買高</B>",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br><B>売買高を忘れずに。</B>Ｅ→Ｑで数値確定。ＵＳＢ経由の株為替ツールで作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：前引け",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+			{
+				"position": "left",
+				"time": "12:25",
+				"job": "【12:20】為替１２時",
+				"tooltip": "【為替１２時】<br>記事ID:｢TSOiMF04｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１２時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "12:50",
+				"job": "【12:45】東証後場寄り",
+				"tooltip": "【東証後場寄り】<br>記事ID：｢TSOiSS14｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証後場寄り",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "12:05",
+				"job": "【12:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１２時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "12:50",
+				"job": "【12:45】日経平均",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br>ＵＳＢ経由で株為替ツールで作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：後場寄り",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "12:00",
+				"job": "月曜 STYLEの面建て確認（作業は早番）",
+				"tooltip": "【月曜 STYLEの面建て調整（作業は早番）】<br>「面管理」＞「独自媒体の無効フラグ」で調整。「順序番号」と紙面建て予定を照合する",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "月曜 STYLEの面建て確認",
+				"toasterBody": "作業は早番"
+			}
+		]
+	},
+	{
+		"time_zone": 13,
+		"set":[
+			{
+				"position": "right",
+				"time": "13:05",
+				"job": "【13:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１３時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "left",
+				"time": "14:25",
+				"job": "【14:20】為替１４時",
+				"tooltip": "【為替１４時】<br>記事ID:｢TSOiMF05｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１４時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "14:25",
+				"job": "【14:20】東証１４時",
+				"tooltip": "【東証１４時】<br>記事ID：｢TSOiSS15｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証１４時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "14:15",
+				"job": "★【14:30まで】きょう日 IMG反映待ち",
+				"tooltip": "【きょう日 イメージを反映待ちに】<br>電子版（本番画面）で確認。ビューアーと広告割付を比較<br><font color='#00FFFF'><b>確認 → 進捗確認画面 → ステ確認</b></font>",
+				"url": "",
+				"ur2": "./manual/8-01_きょうの日経.pdf",
+				"toasterTitle": "8-01_きょうの日経.pdf",
+				"toasterBody": "進捗確認画面から確認を！"
+			},
+			{
+				"position": "left",
+				"time": "14:30",
+				"job": "★【14:30】きょう日 本番反映の確認",
+				"tooltip": "【きょう日 本番反映の確認】<br>電子版（本番画面）で確認。ビューアーと広告割付を比較<br><font color='#00FFFF'><b>確認 → 進捗確認画面 → 本番確認</b></font>",
+				"url": "",
+				"ur2": "./manual/8-01_きょうの日経.pdf",
+				"toasterTitle": "きょう日 本番反映の確認",
+				"toasterBody": "設定後、進捗確認画面から確認を！"
+			},
+			{
+				"position": "right",
+				"time": "14:05",
+				"job": "【14:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１４時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "14:05",
+				"job": "【14:00】日経平均",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br>ＵＳＢ経由で株為替ツールで作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：１４時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+			{
+				"position": "left",
+				"time": "15:05",
+				"job": "【15:00】ＦＭメールの配信確認",
+				"tooltip": "【ＦＭメールの配信確認】<br><font color='#00FFFF'><b>確認→配信制御端末のメーラーでメールの着信をチェック！</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＦＭメールの配信確認",
+				"toasterBody": "早番終了のため早めの確認を！"
+			},
+			{
+				"position": "left",
+				"time": "15:08",
+				"job": "【15:03】日経平均大引け",
+				"tooltip": "【日経平均大引け】<br>記事ID：｢T3LTEC1｣　ジャンル：｢M8・国内｣<br>手動で順位付けを（自動では積まれない）<br>15時台のＭ８配信時間 15:00 /15:10/15:15/15:40/16:00<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "日経平均：大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "15:35",
+				"job": "【15:25】新興株●日",
+				"tooltip":"【新興株●日】<br>記事ID：｢TSOiSST2｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/marketdata/chart/jasdaqidx/",
+				"ur2": "./manual/2-09_新興市場.pdf",
+				"toasterTitle": "新興株大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "15:35",
+				"job": "【15:25】東証大引け",
+				"tooltip":"【東証大引け】<br>記事ID：｢TFMiTM●●｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "15:30",
+				"job": "【15:30】【ＦＭ】株大引け",
+				"tooltip":"【ＦＭ】株式大引け<br>ジャンル：｢TX・ダミー｣<br>大引けショート 原稿 から 作成 目安 15:30 リミット）<BR>東証１部の売買代金をQUICK参考に入力して、まわして送出（定時・送信済。内容を確認してもらう→<br>ＦＭ為替と一緒に順位付け［①株式②為替］→全送信<br>監視端末のWindows Liveメールで確認",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-10_ＦＭ株.pdf",
+				"toasterTitle": "【ＦＭ】株式大引け",
+				"toasterBody": "売買代金が分かれば、ショートでも、ロングでもＯＫです"
+			},
+			{
+				"position": "left",
+				"time": "15:50",
+				"job": "【15:45】通貨インデックス",
+				"tooltip":"【通貨インデックス】<br>記事ID：｢SY2iCC01｣　ジャンル：｢H3・市況数表｣<br>原稿未着はデータ事業部に問い合わせ(☎：２５８０)",
+				"url": "",
+				"ur2": "./manual/2-12_日経通貨index配信.pdf",
+				"toasterTitle": "通貨インデックス",
+				"toasterBody": "ツールにデータが届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "15:05",
+				"job": "【15:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１５時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "15:05",
+				"job": "【15:00】【ＦＭ】為替３時</B>",
+				"tooltip": "【ＦＭ】為替３時<br>記事ID:｢SFMiTMOA｣　ジャンル:｢XT・ダミー｣<br>即時ファイルに自動作成されたものを定時回し・定時で送出<br>順位付け画面「市況／臨時ＦＭニュース」へ！①株②為替で「全送信」<br><font color='#00FFFF'><b>確認→配信制御端末のメーラーでメールの着信をチェック！</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-11_ＦＭ為替（15時）.pdf",
+				"toasterTitle": "【ＦＭ】為替３時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "15:35",
+				"job": "【15:20】日経平均大引け <B>売買高</B>",
+				"tooltip": "【日経平均】<br>記事ID:｢SJRTKB01｣　ジャンル:｢JR・ＪＲ関連｣<br><B>売買高を忘れずに。</B>Ｆ→Ｒで数値確定。ＵＳＢ経由の株為替ツールで作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の９番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-02_日経平均・500種.pdf",
+				"toasterTitle": "日経平均 225/500：１５時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+			{
+				"position": "right",
+				"time": "16:05",
+				"job": "【16:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１６時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "16:05",
+				"job": "【16:00】〇日のスポーツ確認",
+				"tooltip": "【〇日のスポーツ確認】<br>記事が配信されたかを確認する。また、差し替えがないかの確認もすること。<br><font color='#00FFFF'><b>確認→ ①QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "〇日のスポーツ確認",
+				"toasterBody": "差し替えがないか注意！"
+			},
+			{
+				"position": "right",
+				"time": "16:45",
+				"job": "火曜 ＶＳ面建て確認（作業は中番）",
+				"tooltip": "【火曜 ＶＳ面建て確認（作業は中番）】<br>面管理＞組版面・電子新聞面対応表の紙面イメージのみフラグ」を確認<br>「面建て」「紙面建て予定」表を印刷<br>「紙面イメージ名称」はＶＳ整理デスクが変更するためＨＳＣ側ノータッチ",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "火曜 ＶＳ面建て確認",
+				"toasterBody": "作業は中番"
+			},
+			{
+				"position": "right",
+				"time": "16:45",
+				"job": "木曜 ＶＳ整理へ電話（作業は中番）",
+				"tooltip": "【木曜 ＶＳ整理へ電話（作業は中番）】<br>中番がＶＳの「ビューアーのみ」設定を確認<br>中番のＯＫがでたらヴェリタス整理（２０３９）へ電話</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "木曜 ＶＳ整理へ電話",
+				"toasterBody": "作業は中番"
+			},
+			{
+				"position": "right",
+				"time": "16:45",
+				"job": "金曜 STYLEリンク確認後、整理へ連絡",
+				"tooltip": "【金曜 STYLEへリンク付与（作業は中番）】<br>「クロスワード（カルチャー面）」〔https://vdata.nikkei.com/nikkeithestyle/crossword/?nk_from=paperviewer〕、「ナショジオ（最終面）」〔https://style.nikkei.com/natgeo〕にリンク付与<br>ステージングで確認後、整理（２０４０）に連絡",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "金曜 STYLEリンク確認",
+				"toasterBody": "作業は中番への依頼も可"
+			}
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+			{
+				"position": "right",
+				"time": "17:05",
+				"job": "【17:00】円相場",
+				"tooltip": "【円相場】<br>記事ID:｢SJRTEN01｣　ジャンル:｢JR・ＪＲ関連｣<br>１分後以降にデータをコピー、株為替ツールに貼り付け。ＵＳＢ経由で作成。<br><font color='#00FFFF'><b>確認<br> ①QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」。<br> ②順位付け画面「ＪＲ」の８番目。「ＪＫ」「ＪＨ」「ＪＷ」も。</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-01_JR・QUICK向け為替.pdf",
+				"toasterTitle": "円相場：１７時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "17:05",
+				"job": "【17:00】【ＦＭ】為替５時</B>",
+				"tooltip": "【ＦＭ】為替５時<br>記事ID:｢SFMiTMOA｣　ジャンル:｢XT・ダミーダミー｣<br>即時ファイルに自動作成されたものを定時回し・定時で送出<br>順位付け画面「市況／臨時ＦＭニュース」へ！①株②為替で「全送信」<br><font color='#00FFFF'><b>確認→配信制御端末のメーラーでメールの着信をチェック！</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-11_ＦＭ為替（15時）.pdf",
+				"toasterTitle": "【ＦＭ】為替５時",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			}
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【17:00】遅番に引き継ぎ",
+				"tooltip": "【遅番に引き継ぎ】",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "遅番の引き継ぎ",
+				"toasterBody": "ツールに不具合などあれば"
+            }
+		]
+	}
+]

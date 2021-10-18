@@ -1,0 +1,122 @@
+[
+	{
+		"title": "中番（平日）（14:00～18:15）：チェックリスト"
+	},
+	{
+		"time_zone": 14,
+		"set":[
+            {
+				"position": "left",
+				"time": "24:00",
+				"job": "早番は帰社",
+				"tooltip": "",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "",
+				"toasterBody": ""
+			},
+            {
+				"position": "left",
+				"time": "14:20",
+				"job": "【14:30まで】きょう日 IMG反映待ちに<br>土曜日",
+				"tooltip": "【きょう日経】　イメージを本番反映待ちに<br>金曜日はプラス１も<br>面建て変更時の連絡→工程Ｇ（2043）<br>広告割り付け→広告整理（7471）</font>",
+				"url": "https://www.nikkei.com/markets/kawase/page/?uah=DF_SEC8_C3_020",
+				"ur2": "./manual/8-01_きょうの日経.pdf",
+				"toasterTitle": "きょう日イメージ反映待ちに",
+				"toasterBody": "イメージの受信確認を！"
+			},
+			{
+				"position": "left",
+				"time": "14:35",
+				"job": "【14:30】きょう日 本番反映確認<br>土曜日",
+				"tooltip": "【きょう日 本番反映の確認】<br>ビューアーと広告割付を比較<br><font color='#00FFFF'><b>確認→電子版（本番画面）で</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "きょう日 反映の確認",
+				"toasterBody": "ビューアーと広告割付を比較"
+			},
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】定時積み込み",
+				"tooltip": "【定時ニュース積み込み】　<br>前日2:00からの即時・定時ファイルを確認<br>深夜帯の★あれば差し替える<br><font color='#00FFFF'><b>確認→順位付け画面「E1/S1/G1」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】ＪＲ積み込み",
+				"tooltip": "【ＪＲ積み込み】　<br>海外ネタなど夕刊原稿から作成<br><font color='#00FFFF'><b>確認→順位付け画面「JR」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ積み込み",
+				"toasterBody": "渾身を参考に！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツの積み込み",
+				"tooltip": "【スポーツの積み込み】　土曜日は１・２・３版の運動面も確認<br>ロイター共同は使用不可<br><font color='#00FFFF'><b>確認→日経電子版、スポーツ「速報」</b></font>",
+				"url": "https://www.nikkei.com/news/category/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ更新",
+				"toasterBody": "指示書と各版のスポーツ面を確認！"
+            },
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】配信エラー対応",
+				"tooltip": "【配信エラー対応】ＣＯＮＭＥＴ「配信制御」の監視。メールが届くので内容を確認し対応する。<br>「ロック」された場合は記事を右クリックして「送信」を選択。「アクセス権エラー」は「送信対象外」を選択する。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "配信エラー対応",
+				"toasterBody": "即時対応でなくてＯＫ"
+			}
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+            {
+				"position": "left",
+				"time": "17:00",
+				"job": "翌日付SS＆MJあれば ダイジェスト作成",
+				"tooltip": "【ダイジェスト作成】　<br>通常10本を速報「戻し」に<br>作成後、遅番に確認を依頼<br>ニュースなデータ面は使用せず<br>１面のインデックスを優先採用",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ダイジェスト作成",
+				"toasterBody": "１面のインデックスを優先採用"
+			}
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【18:00】遅番に引き継ぎ",
+				"tooltip": "【遅番に引き継ぎ】",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "遅番の引き継ぎ",
+				"toasterBody": ""
+            }
+		]
+	}
+]

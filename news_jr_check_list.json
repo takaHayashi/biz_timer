@@ -1,0 +1,234 @@
+[
+	{
+		"title": "ＪＲ番（09:30～18:00）：チェックリスト"
+	},
+	{
+		"time_zone": 10,
+		"set":[
+            {
+				"position": "left",
+				"time": "09:35",
+				"job": "【09:30】早番から引き継ぎ",
+				"tooltip": "【送出されたＪＲの確認】<br>宅番と早番が送出したＪＲを確認<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身や夕刊紙面をチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＪＲ：ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+			},
+			{
+				"position": "left",
+				"time": "09:45",
+				"job": "【09:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "確認ツールは<a href='http://172.20.236.34/jr/index.html' target='blank'>こちら</a>",
+				"tooltip": "確認ツール",
+				"url": "http://172.20.236.34/jr/index.html",
+				"ur2": "",
+				"toasterTitle": "",
+				"toasterBody": ""
+            },
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】夕刊ネタ＆渾身を確認",
+				"tooltip": "【速報や夕刊原稿から作成】<br>共通・独自不問。共同も使用可<br>更新毎に１～２本目安br>解禁時刻に注意（送出後の訂正で解禁設定されることも）<br>夕刊外（電子版専用・速報原稿など）も使用可<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR基準書.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+            }
+		]
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "left",
+				"time": "10:45",
+				"job": "【10:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+            {
+				"position": "left",
+				"time": "11:40",
+				"job": "【11:30】夕刊１版確認",
+				"tooltip": "【夕刊１版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+			},
+			{
+				"position": "left",
+				"time": "11:45",
+				"job": "【11:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+            {
+				"position": "left",
+				"time": "12:15",
+				"job": "【12:00】夕刊３版確認",
+				"tooltip": "【夕刊３版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br>確認依頼は25F統括デスク(2017)<BR><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+			},
+			{
+				"position": "left",
+				"time": "12:45",
+				"job": "【12:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 13,
+		"set":[
+            {
+				"position": "left",
+				"time": "13:40",
+				"job": "【13:15】夕刊４版確認",
+				"tooltip": "【夕刊４版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+			},
+			{
+				"position": "left",
+				"time": "13:45",
+				"job": "【13:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "left",
+				"time": "14:45",
+				"job": "【14:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},	{
+		"time_zone": 15,
+		"set":[
+            {
+				"position": "right",
+				"time": "15:30",
+				"job": "水曜 【15時頃】ガソリン価格",
+				"tooltip": "【ガソリン価格をＪＲへ】<br><br></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+			},
+			{
+				"position": "left",
+				"time": "15:45",
+				"job": "【15:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+			{
+				"position": "left",
+				"time": "16:45",
+				"job": "【16:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】朝刊ネタ＆渾身を確認",
+				"tooltip": "【朝刊ネタ＆渾身を確認】<br>紙面一覧で硬派面をチェック<br>早い時間に届いた翌朝刊原稿から作成も可。共同もOK<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR基準書.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+            }
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+			{
+				"position": "left",
+				"time": "17:45",
+				"job": "【17:45】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】更新を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ：ＴＶの画面確認",
+				"toasterBody": "文字数オーバーに注意"
+			}
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【18:00】宅番へ引き継ぎ",
+				"tooltip": "【夕刊後の原稿を報告】<br>順位付けの画面の確認<br>テレビ東京のデジタル放送画面も確認<br>宅番へ朝刊候補の原稿の使用を報告<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "宅番へ引き継ぎ",
+				"toasterBody": "朝刊ネタや速報で何を書いたか報告を！"
+            }
+		]
+	}
+]

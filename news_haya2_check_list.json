@@ -1,0 +1,238 @@
+[
+	{
+		"title": "早番（土・平日祝7:00～14:00、日・休刊日・月祝8:00～16:00）：チェックリスト"
+	},
+	{
+		"time_zone": 7,
+		"set":[
+			{
+				"position": "left",
+				"time": "07:30",
+				"job": "【7:45まで】JR:NY株<br>　土曜・祝日の火～金曜日",
+				"tooltip": "【ＪＲ：ＮＹ株】　日曜日はナシ！<br>記事ID：｢SJRITB02｣　ジャンル：｢JR・JRジャンル｣<br>「オリジナル」ファイルより手動で作成<br>7:45まで送出できない場合は順位付け画面からJR/JK/JW/JHを手動で送信する<br><b>米国休場の場合はロンドン株を使用（基準書参照）</b><br>ロンドンも休場なら一般ニュースＪＲを差し込む<br><font color='#00FFFF'><b>確認→順位付け画面「ＪＲ」の９番目</b></font>",
+				"url": "https://www.nikkei.com/markets/kaigai/",
+				"ur2": "./manual/3-03_ＮＹ株のＪＲ作成.pdf",
+				"toasterTitle": "ＪＲ：ＮＹ株",
+				"toasterBody": "「オリジナル」に原稿が届いていないか確認を！"
+            },
+            {
+				"position": "left",
+				"time": "07:30",
+				"job": "【7:45まで】JR:NY円<br>　土曜・祝日の火～金曜日",
+				"tooltip": "【ＪＲ：ＮＹ円】　日曜日はナシ！<br>記事ID：｢SJRITE02｣　ジャンル：｢JR・JRジャンル｣<br>自動記事化され「自動モノ・素材」に届いたものを送出<br>7:45まで送出できない場合は順位付け画面からJR/JK/JW/JHを手動で送信する<br><b>米国休場の場合はロンドン為替を使用（基準書参照）</b><br>ロンドンも休場なら一般ニュースＪＲを差し込む<br><font color='#00FFFF'><b>確認→順位付け画面「ＪＲ」の８番目</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/3-02_ＮＹ為替のＪＲ作成.pdf",
+				"toasterTitle": "ＪＲ：ＮＹ円",
+				"toasterBody": "記事化された原稿が届いていないか確認を！"
+            },
+            {
+				"position": "left",
+				"time": "07:30",
+				"job": "【07:45まで】ＪＲ：天気<br>　日曜は8:45までに",
+				"tooltip": "【ＪＲ：天気】<br>ＪＲ各社へ天気ツールを使用し作成（３本）<br>ＪＲ東海＆携帯向け　記事ID：｢sjritwww｣ ジャンル「JR｣と｢JK｣<br>ＪＲ西日本向け 記事ID：｢sjritwn1｣ ジャンル：｢JW｣<br>ＪＲ北陸向け 記事ID：｢sjritwh1｣　ジャンル：｢JH｣<br>ツールが使えない場合は「YAHOO!」の天気情報（下記の参照はこちら）から手動で作成<br>基準書：ＪＲ天気エラー対応.pdf参照<br><font color='#00FFFF'><b>確認→順位付け画面「JR/JK/JW/JH」</b></font>",
+				"url": "https://weather.yahoo.co.jp/weather/",
+				"ur2": "./manual/3-04_ＪＲ今日の天気.pdf",
+				"toasterTitle": "ＪＲ：天気",
+				"toasterBody": "ツールの天気情報が更新されない場合は手動作成！"
+            },
+            {
+				"position": "left",
+				"time": "07:15",
+				"job": "【07:15】ＴＶ画面の確認<br>　月曜～土曜",
+				"tooltip": "【ＴＶ画面の確認】<br>宅番がセットしたJK･E1･S1をテレ東で確認<br>空見出しや解禁の外し忘れに注意<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（土曜 6:15 更新、日曜＆祝日 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/定時配信時間一覧202010.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+            },
+			{
+				"position": "left",
+				"time": "07:50",
+				"job": "【08:00まで】LIBORのFAX<br>　土曜・祝日の火～金曜日",
+				"tooltip": "【ＬＩＢＯＲのＦＡＸ】<br>QUICKの画面を印刷してFAX送信。<br>デジタル事業Ｂ to Ｂユニット・コンテンツ開発部 Fax:2858<br>日経リサーチ社会情報部マクログループ Fax:03 5296 5139",
+				"url": "",
+				"ur2": "./manual/6-03_LIBOR .pdf",
+				"toasterTitle": "ＬＩＢＯＲのＦＡＸ",
+				"toasterBody": "QUICKの画面を印刷してFAX送信"
+			},
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】配信エラー対応",
+				"tooltip": "【配信エラー対応】<br>ＣＯＮＭＥＴ「配信制御」の監視。<br>メールが届くので内容を確認し対応する。<br>「ロック」された場合は記事を右クリックして「送信」を選択。<br>「アクセス権エラー」は「送信対象外」を選択する。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "配信エラー対応",
+				"toasterBody": "即時対応でなくてＯＫ"
+			},
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】定時の積み込み",
+				"tooltip": "【定時ニュース積み込み】　<br>前日2:00からの即時・定時ファイルを確認<br>深夜帯の★あれば差し替える<br>10:05,12:00,13:00,14:01,16:00に送出<br>共通・独自不問。共同も使用可<br>定時見出しは全角・半角かかわらず<br>（全て１文字として数えて30文字以内）<br>夕刊外(電子版専用･速報原稿)も使用可。解禁時間に注意<br>金融(銀行･証券･保険)はS1でなくE1に<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】ＪＲ積み込み",
+				"tooltip": "【ＪＲ積み込み】　<br>海外ネタなど夕刊原稿から作成<br><font color='#00FFFF'><b>確認→順位付け画面「JR」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ積み込み",
+				"toasterBody": "渾身を参考に！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツ積み込み",
+				"tooltip": "【スポーツ積み込み】　<br>前日2:00からのニュースを確認<br><font color='#00FFFF'><b>確認→日経電子版「スポーツ」</b></font>",
+				"url": "https://www.nikkei.com/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ積み込み",
+				"toasterBody": "興味を引く見出しに♪"
+            }
+		]
+	},
+	{
+		"time_zone": 8,
+		"set":[
+			{
+				"position": "left",
+				"time": "08:10",
+				"job": "【08:00】ＦＭ配信確認<br>　土日はなし",
+				"tooltip": "【ＦＭ配信確認】ＦＭメールの確認。出社時点で送出済み 8:00 。 メール が 受信できているかを 監視 端末で確認する。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＦＭ配信確認",
+				"toasterBody": "土日はなし"
+			},
+			{
+				"position": "left",
+				"time": "08:30",
+				"job": "【8:30】共同天気",
+				"tooltip": "【共同天気】<br>COMETに自動作成された＜天気概況＞と＜各地の●日の天気予報＞を送出<br>天気概況から先に送出すること<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "共同天気",
+				"toasterBody": "COMETに自動作成されていませんか？"
+			},
+			{
+				"position": "left",
+				"time": "08:45",
+				"job": "【8:30】●日のスポーツ",
+				"tooltip": "【●日のスポーツ】<br>翌日付のスポーツの予定を送出<br>COMETに自動作成された記事を送出する<br><b>16:01に公開をクリック</b>「今すぐ公開」は厳禁<br>時事で特に予定が無い場合は共同を使う。COMETの通信社電（共同）から取り込み、スポーツ原稿同様に処理をする。その際、解禁設定を忘れずに。<br>共同も無しであれば出稿しない<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "./manual/5-16_あすのスポーツ（時事）.pdf",
+				"toasterTitle": "●日のスポーツ",
+				"toasterBody": "COMETに自動作成。翌日付を配信、解禁は16:01"
+			}
+		]
+	},
+	{
+		"time_zone": 9,
+		"set":[
+		]
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "left",
+				"time": "10:08",
+				"job": "【10:05】ＴＶ画面の確認<br>　日曜・祝日",
+				"tooltip": "【ＴＶ画面の確認】<br>宅番がセットしたJK･E1･S1をテレ東で確認<br>空見出しや解禁の外し忘れに注意<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（土曜 6:15 更新、日曜＆祝日 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/定時配信時間一覧202010.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+            },
+			{
+				"position": "left",
+				"time": "14:00",
+				"job": "【出番中】MJダイジェスト作成<br>日曜と翌日付がある日",
+				"tooltip": "【ＭＪダイジェスト】<br>翌日付があれば。記事ID「SE2IDR01」、解禁：付日の午前0:00<br>通常10本、最終面を必ず使う。遅番に確認依頼。１面のインデックス記事を参考に",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＭＪダイジェスト",
+				"toasterBody": "解禁：付日の午前0:00"
+			},
+			{
+				"position": "left",
+				"time": "14:00",
+				"job": "【出番中】SSダイジェスト作成<br>日曜と翌日付がある日",
+				"tooltip": "【ＳＳダイジェスト】<br>翌日付があれば。記事ID「SE2IDS01」、解禁：付日の午前0:00<br>通常10本。遅番に確認依頼。１面のインデックス記事を参考に",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＳＳダイジェスト",
+				"toasterBody": "解禁：付日の午前0:00"
+			}
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 13,
+		"set":[
+			{
+				"position": "left",
+				"time": "13:50",
+				"job": "【13:45】きょう日 IMGを反映待ちに<br>土曜のみ",
+				"tooltip": "【きょう日経 イメージを反映待ちに】<br>ラテ ・ 全広 ・証券商品 （イメージのみ）面を本番反映待にする",
+				"url": "",
+				"ur2": "8-01_きょうの日経.pdf",
+				"toasterTitle": "きょう日 IMGを反映待ちに",
+				"toasterBody": "ラテ ・ 全広 ・証券商品 （イメージのみ）面を本番反映待に"
+            }
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "土曜【14:00】中番に引き継ぎ",
+				"tooltip": "【中番に引き継ぎ】定時を何本積んだか、ＪＲは何を書いたか報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "定時の引き継ぎ",
+				"toasterBody": "ＪＲ・定時・スポーツなど"
+            }
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "日曜・祝日【16:00】遅番に引き継ぎ",
+				"tooltip": "【遅番に引き継ぎ】定時を何本積んだか、ＪＲは何を書いたか報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "遅番の引き継ぎ",
+				"toasterBody": "ＪＲ・定時・スポーツなど"
+            }
+		]
+	}
+]

@@ -1,0 +1,277 @@
+[
+	{
+		"title": "早番（平日）（7:00～16:00）：チェックリスト"
+	},
+	{
+		"time_zone": 7,
+		"set":[
+            {
+				"position": "left",
+				"time": "07:15",
+				"job": "【07:15メド】ＴＶ画面の確認",
+				"tooltip": "【ＴＶ画面の確認】<br>宅番がセットしたJK･E1･S1をテレ東で確認<br>空見出しや解禁の外し忘れに注意<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新）</font>",
+				"url": "",
+				"ur2": "./manual/定時配信時間一覧202010.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデータ放送画面で"
+            },
+            {
+				"position": "left",
+				"time": "07:20",
+				"job": "月曜なし【07:45まで】ＪＲ：ＮＹ株",
+				"tooltip": "【ＪＲ：ＮＹ株】　月曜日はナシ！無し<br>記事ID：｢SJRITB02｣　ジャンル：｢JR・JRジャンル｣<br>「オリジナル」ファイルより手動で作成<br>7:45まで送出できない場合は順位付け画面からJR/JK/JW/JHを手動で送信する<br><b>米国休場の場合はロンドン株を使用（基準書参照）</b><br>ロンドンも休場なら一般ニュースＪＲを差し込む<br><font color='#00FFFF'><b>確認→順位付け画面「ＪＲ」の９番目</b></font>",
+				"url": "https://www.nikkei.com/markets/kaigai/",
+				"ur2": "./manual/3-03_ＮＹ株のＪＲ作成.pdf",
+				"toasterTitle": "ＪＲ：ＮＹ株",
+				"toasterBody": "「オリジナル」に原稿が届いていないか確認を！"
+            },
+            {
+				"position": "left",
+				"time": "07:20",
+				"job": "月曜なし【07:45まで】ＪＲ：ＮＹ円",
+				"tooltip": "【ＪＲ：ＮＹ円】月曜日はナシ！<br>記事ID：｢SJRITE02｣　ジャンル：｢JR・JRジャンル｣<br>自動記事化され「自動モノ・素材」に届いたものを送出<br>7:45まで送出できない場合は順位付け画面からJR/JK/JW/JHを手動で送信する<br><b>米国休場の場合はロンドン為替を使用（基準書参照）</b><br>ロンドンも休場なら一般ニュースＪＲを差し込む<br><font color='#00FFFF'><b>確認→順位付け画面「ＪＲ」の８番目</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/3-02_ＮＹ為替のＪＲ作成.pdf",
+				"toasterTitle": "ＪＲ：ＮＹ円",
+				"toasterBody": "記事化された原稿が届いていないか確認を！"
+            },
+            {
+				"position": "left",
+				"time": "07:30",
+				"job": "【07:45まで】ＪＲ：天気",
+				"tooltip": "【ＪＲ：天気】<br>ＪＲ各社へ天気ツールを使用し作成（３本）<br>ＪＲ東海＆携帯向け　記事ID：｢sjritwww｣ ジャンル「JR｣と｢JK｣<br>ＪＲ西日本向け 記事ID：｢sjritwn1｣ ジャンル：｢JW｣<br>ＪＲ北陸向け 記事ID：｢sjritwh1｣　ジャンル：｢JH｣<br>ツールが使えない場合は「YAHOO!」の天気情報（下記の参照はこちら）から手動で作成<br>基準書：ＪＲ天気エラー対応.pdf参照<br><font color='#00FFFF'><b>確認→順位付け画面「JR/JK/JW/JH」</b></font>",
+				"url": "https://weather.yahoo.co.jp/weather/",
+				"ur2": "./manual/3-04_ＪＲ今日の天気.pdf",
+				"toasterTitle": "ＪＲ：天気",
+				"toasterBody": "ツールの天気情報が更新されない場合は手動作成！"
+			},
+            {
+				"position": "left",
+				"time": "07:40",
+				"job": "【08:00まで】ＦＭの内容確認",
+				"tooltip": "【朝刊ＦＭの内容確認】　記事の更新（赤字／続報）を８時の送出前に確認<br>作成時より後に訂正や続報がきていたら差し替える<br>再送後は順位付けの確認を<br><font color='#00FFFF'><b>確認→順位付け画面「朝刊ＦＭニュース」</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "朝刊ＦＭの内容確認",
+				"toasterBody": "記事の更新を確認！"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】配信エラー対応",
+				"tooltip": "【配信エラー対応】ＣＯＮＭＥＴ「配信制御」の監視。メールが届くので内容を確認し対応する。<br>「ロック」された場合は記事を右クリックして「送信」を選択。「アクセス権エラー」は「送信対象外」を選択する。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "配信エラー対応",
+				"toasterBody": "即時対応でなくてＯＫ"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【Ｄ番引き継ぎまで】定時の積み込み",
+				"tooltip": "【定時ニュース積み込み】　<br>前日2:00からの即時・定時ファイルを確認<br>深夜帯の★あれば差し替える<br><font color='#00FFFF'><b>確認→順位付け画面「E1/S1/G1」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【ＪＲ番引き継ぎまで】ＪＲの積み込み",
+				"tooltip": "【ＪＲの積み込み】　<br>海外ネタなど夕刊原稿から作成<br><font color='#00FFFF'><b>確認→順位付け画面「JR」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ積み込み",
+				"toasterBody": "渾身を参考に！"
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツの積み込み",
+				"tooltip": "【スポーツ積み込み】　<br>前日2:00からのニュースを確認<br><font color='#00FFFF'><b>確認→日経電子版「スポーツ」</b></font>",
+				"url": "https://www.nikkei.com/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ積み込み",
+				"toasterBody": "興味を引く見出しに♪"
+			}
+		]
+	},
+	{
+		"time_zone": 8,
+		"set":[
+			{
+				"position": "left",
+				"time": "08:10",
+				"job": "【08:10】共同天気",
+				"tooltip": "【共同天気】<br>COMETに自動作成された＜天気概況＞と＜各地の●日の天気予報＞を送出<br>天気概況から先に送出すること<br>原稿が届かない場合は共同通信０３－６２５２－８４８４に問い合わせ<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "./manual/3-04_ＪＲ今日の天気.pdf",
+				"toasterTitle": "共同天気",
+				"toasterBody": "COMETに自動作成されていませんか？"
+			},
+			{
+				"position": "left",
+				"time": "08:15",
+				"job": "【08:15】●日のスポーツ",
+				"tooltip": "【●日のスポーツ】<br>翌日付のスポーツの予定を送出<br>COMETに自動作成された記事を送出する<br><b>16:01に公開をクリック</b>「今すぐ公開」は厳禁<br>時事で特に予定が無い場合は共同を使う。COMETの通信社電（共同）から取り込み、スポーツ原稿同様に処理をする。その際、解禁設定を忘れずに。<br>共同も無しであれば出稿しない<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "./manual/5-16_あすのスポーツ（時事）.pdf",
+				"toasterTitle": "●日のスポーツ",
+				"toasterBody": "COMETに自動作成。翌日付を配信、解禁は16:01"
+			},
+            {
+				"position": "left",
+				"time": "08:15",
+				"job": "【08:30まで】Ｍ８個別銘柄の削除",
+				"tooltip": "【Ｍ８個別銘柄記事の削除】　前日分が掲載されないように、Ｍ８個別銘柄の削除する",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "Ｍ８個別銘柄記事の削除",
+				"toasterBody": "前日分が掲載されないように！"
+			}
+		]
+	},
+	{
+		"time_zone": 9,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツは確認依頼",
+				"tooltip": "【スポーツ積み込み】　9時からはＳ番に確認依頼<br><font color='#00FFFF'><b>確認→日経電子版「スポーツ」</b></font>",
+				"url": "https://www.nikkei.com/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ積み込み",
+				"toasterBody": "見出しは面白く♪"
+			},
+			{
+				"position": "left",
+				"time": "09:00",
+				"job": "【09:00頃】きょう日 臨時特集設定",
+				"tooltip": "【きょう日 臨時特集ビューアー設定】<br>翌日朝刊に「ビューアーのみ」の特集があればNEOの「面管理」画面で設定、日報に記入する</font>",
+				"url": "",
+				"ur2": "./manual/8-01_きょうの日経.pdf",
+				"toasterTitle": "きょう日 臨時特集設定f",
+				"toasterBody": "チャットに連絡が無いか確認を！"
+			},
+            {
+				"position": "left",
+				"time": "09:20",
+				"job": "【09:20頃】割付表メールに返信",
+				"tooltip": "【割付表メールに返信】<br>クロスメディアユニット紙面編成部から送られてくる割付表を確認し、メールに返信をする。メールが届かない場合はＳ番に紙面編成部紙面管理担当（内線：７４７３）に連絡をお願いする",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "割付表のメールに返信",
+				"toasterBody": "メールが届いていないか確認を！"
+            },
+			{
+				"position": "left",
+				"time": "09:45",
+				"job": "【09:50】順位付け 10時05更新分",
+				"tooltip": "【順位付け 10時05更新分】10時05更新分を確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "順位付け 10時05更新分",
+				"toasterBody": "扱いや送出時間に配慮"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【09:30】ＪＲの引き継ぎ",
+				"tooltip": "【ＪＲの引き継ぎ】書いたネタを報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＪＲの引き継ぎ",
+				"toasterBody": "書いたネタを報告"
+            }
+		]
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【10:00】定時の引き継ぎ",
+				"tooltip": "【定時の引き継ぎ】16:00以降に何本積んだかを報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "定時の引き継ぎ",
+				"toasterBody": "16:00以降を報告"
+            },
+			{
+				"position": "right",
+				"time": "10:30",
+				"job": "月曜 【出番中に】STYLE面建て調整",
+				"tooltip": "【ＳＴＹＬＥの面建て調整】<br>月曜日に確認、紙面予定を参照。［面管理＞独自媒体］の「順序番号」「無効フラグ」で制御する",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "月曜・STYLE面建て調整",
+				"toasterBody": "「無効フラグ」で制御"
+			},
+			{
+				"position": "right",
+				"time": "10:10",
+				"job": "金曜 【10:10頃】来週の紙面予定を保存",
+				"tooltip": "【来週の紙面予定を保存】<br>金曜日にメールで届く来週の紙面予定を保存する。印刷はＳ番。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "金曜・来週の紙面予定を保存",
+				"toasterBody": "印刷はＳ番"
+			}
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 13,
+		"set":[
+			{
+				"position": "left",
+				"time": "13:45",
+				"job": "【13:45】きょう日 IMGを反映待ちに",
+				"tooltip": "【きょう日経 イメージを反映待ちに】<br>ラテ ・ 全広 ・証券商品 （イメージのみ）面を本番反映待にする",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "きょう日 IMGを反映待ちに",
+				"toasterBody": "ラテ ・ 全広 ・証券商品 （イメージのみ）面を本番反映待に"
+            },
+            {
+				"position": "left",
+				"time": "13:50",
+				"job": "【13:50】夕刊ＦＭ作成",
+				"tooltip": "【夕刊ＦＭを作成】<br>ID：｢TFMITA@@｣、1 面と総合面から６本（共同は使用不可）を選んで作成。<br>分量20倍×20行、見出し・本文とも全角、見出しは定時に<br>文頭の記者名を削る、人名にルビ",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "夕刊ＦＭ",
+				"toasterBody": "1 面と総合面から６本（共同は使用不可）を選んで作成"
+			}
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【14:00】中番に引き継ぎ",
+				"tooltip": "【スポーツの引き継ぎ】<br>共同のメモを参考にするとよい",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "スポーツの引き継ぎ",
+				"toasterBody": "共同のメモを参考に"
+			}
+		]
+	}
+]

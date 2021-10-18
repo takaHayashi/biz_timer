@@ -1,0 +1,150 @@
+[
+	{
+		"title": "中番（平日）（14:00～18:15）：チェックリスト"
+	},
+	{
+		"time_zone": 14,
+		"set":[
+            {
+				"position": "left",
+				"time": "14:15",
+				"job": "【14:00】ＦＭ内容確認",
+				"tooltip": "【夕刊ＦＭの内容確認】<br>早番が作成した記事の内容・更新（赤字／続報）を15時の送出前に確認<br>作成時より後に訂正や続報がきていたら差し替える<br>再送後は順位付けの確認を<br><font color='#00FFFF'><b>確認→順位付け画面「夕刊ＦＭニュース」</b></font>",
+				"url": "",
+				"ur2": "./manual/4-08_FM（夕刊）.pdf",
+				"toasterTitle": "夕刊ＦＭの内容確認",
+				"toasterBody": "記事の更新を確認！"
+			},
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツの積み込み",
+				"tooltip": "【スポーツの積み込み】<br>１・２・３版の運動面を確認<br>ロイター共同は使用不可<br><font color='#00FFFF'><b>確認→日経電子版、スポーツ「速報」</b></font>",
+				"url": "https://www.nikkei.com/news/category/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ更新",
+				"toasterBody": "指示書と各版のスポーツ面を確認！"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】配信エラー対応",
+				"tooltip": "【配信エラー対応】<br>ＣＯＮＭＥＴ「配信制御」の監視。メールが届くので内容を確認し対応する。<br>「ロック」された場合は記事を右クリックして「送信」を選択。「アクセス権エラー」は「送信対象外」を選択する。",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "配信エラー対応",
+				"toasterBody": "即時対応でなくてＯＫ"
+			},
+			{
+				"position": "left",
+				"time": "14:40",
+				"job": "火曜 【14:30頃】VSのイメージ設定",
+				"tooltip": "【ヴェリタスの「ビューワーのみ」を設定】<br>メールで届く「面建て」「紙面予定」参照<br>最新号（土曜深夜公開）の「ビューワーのみ」を設定<br>設定後、Ｓ番にＷチェックと印刷依頼",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "VS:IMG設定",
+				"toasterBody": "「面建て」「紙面予定」参照"
+            }
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+			{
+				"position": "left",
+				"time": "15:10",
+				"job": "木曜 【15:00頃】VSのIMGのみを確認",
+				"tooltip": "【ヴェリタスの「ビューワーのみ」を確認】<br>進捗確認画面で「ビューワーのみ」設定を確認<br>工程Ｇから面建てが送られたら作業<br>問題なければＳに報告、整理（２０３９）へ連絡してもらう",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "VSのイメージ進捗確認",
+				"toasterBody": "工程Ｇから面建てが送られたら作業"
+			},
+			{
+				"position": "left",
+				"time": "15:40",
+				"job": "金曜 【15:30頃】STYLEの面建て確認",
+				"tooltip": "【「朝刊」ではなく「STYLE」で】<br>独自面建てを確認",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "STYLEの面建て確認",
+				"toasterBody": "「朝刊」ではなく「STYLE」で"
+            },
+			{
+				"position": "left",
+				"time": "15:45",
+				"job": "【16:00まで】ＦＭ株式のＷチェック",
+				"tooltip": "【ＦＭ株式の確認】<br>Ｓ番からの依頼後、ＦＭ株式の原稿を確認する。<br>売買代金に注意。ＯＫならＳ番に伝える",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＦＭ株式のＷチェック",
+				"toasterBody": "売買代金に注意"
+			}
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+			{
+				"position": "left",
+				"time": "16:45",
+				"job": "金曜 【16:30頃】STYLEのリンク付与",
+				"tooltip": "【「STYLE」にリンク付与】<br>整理・特集Ｇからの依頼後に作業<br>カルチャー面「クロスワード」<br>https://vdata.nikkei.com/nikkeithestyle/crossword/?nk_from=paperviewer<br>最終頁「ナショジオ」<br>https://style.nikkei.com/natgeo<br>作業後、Ｓ番に報告 整理（２０４０）へ連絡してもらう",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "STYLEのリンク付与",
+				"toasterBody": "「クロスワード」「ナショジオ」に"
+			},
+            {
+				"position": "left",
+				"time": "16:30",
+				"job": "【16:30】ＭＪダイジェスト作成<br>火・木曜",
+				"tooltip": "【ＭＪダイジェスト作成】　<br>通常10本を速報「戻し」に<br>作成後、遅番に確認を依頼<br>１面のインデックスを優先採用",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＭＪダイジェスト作成",
+				"toasterBody": "１面のインデックスを優先採用"
+			}
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+			{
+				"position": "left",
+				"time": "17:45",
+				"job": "金曜 【17:45】VSのIMG本番反映待に ",
+				"tooltip": "【ヴェリタスのイメージを本番反映待に】<br>降版が遅ければ遅番作業<br>全頁がステージングになったら作業開始<br>編集面以外の「イメージのみ」を本番反映待に",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "VSのイメージ本番反映待に",
+				"toasterBody": "「イメージのみ」を本番反映待に"
+			},
+            {
+				"position": "left",
+				"time": "17:50",
+				"job": "【17:50】ＭＪのIMG反映待に",
+				"tooltip": "【ＭＪの「イメージのみ」を本番反映待ちに】<br>広告割り付けが届いたら作業<br>紙面イメージが届いたら「イメージのみ」を本番反映",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "ＭＪのIMG反映待に",
+				"toasterBody": "広告割り付け参照"
+			}
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【18:00】遅番に引き継ぎ",
+				"tooltip": "【遅番に引き継ぎ】",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "遅番の引き継ぎ",
+				"toasterBody": "スポーツ・きょう日など"
+            }
+		]
+	}
+]

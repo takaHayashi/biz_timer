@@ -1,0 +1,320 @@
+[
+	{
+		"title": "市況番（9:00～17:00）：チェックリスト"
+	},
+	{
+		"time_zone": 8,
+		"set":[
+			{
+				"position": "left",
+				"time": "09:00",
+				"job": "【作業前に】前営業日の株価（高・安）",
+				"tooltip": "【作業前に】<br>前（営業）日の株価の高・安をツールに登録<br>↑上がっていれば△に、↓下がっていれば▲に",
+				"url": "https://www.nikkei.com/paper/",
+				"ur2": "",
+				"toasterTitle": "作業前に",
+				"toasterBody": "株価の高・安でチェックを！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "【08:45】為替８時３０分",
+				"tooltip": "【為替８時３０分】<br>記事ID：｢TSOiMF01｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)<br><font color='#00FFFF'><b>確認→順位付け画面「Ｍ８」</b></font>",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 9,
+		"set":[
+			{
+				"position": "left",
+				"time": "09:25",
+				"job": "【09:20】東証寄り付き",
+				"tooltip": "【東証寄り付き】　記事ID：｢TSOiSS11｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)<br><font color='#00FFFF'><b>確認→順位付け画面「Ｍ８」</b></font>",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証寄り付き",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:00",
+				"job": "【09:50】公社債インデックス",
+				"tooltip": "【公社債インデックス】　記事ID：｢SH7IAA04｣　ジャンル：｢H3・市況数表｣<br>メール未着はデータ事業部に問い合わせ（☎：２５８０）<br><font color='#00FFFF'><b>確認①→QUICK端末「日経新聞／日経QUICK」→「外為金利関数表」<br>確認②→QUICK端末「日経新聞／日経QUICK」→「NIKKEI Report」</b></font>",
+				"url": "",
+				"ur2": "./manual/2-05_日経公社債インデックス配信.pdf",
+				"toasterTitle": "公社債インデックス",
+				"toasterBody": "ツールにデータが届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "left",
+				"time": "10:10",
+				"job": "【10:00】貴金属地金",
+				"tooltip": "【貴金属地金】　記事ID：｢SQ4iAAD8｣　ジャンル：｢XG・数表分割｣<br>データ未着は経済データ編集部に問い合わせ（☎：２１５５）",
+				"url": "",
+				"ur2": "./manual/2-06_貴金属地金.pdf",
+				"toasterTitle": "貴金属地金",
+				"toasterBody": "速報ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:25",
+				"job": "【10:20】為替１０時",
+				"tooltip": "【為替１０時】　記事ID:｢TSOiMF03｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１０時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "10:25",
+				"job": "【10:20】東証１０時",
+				"tooltip": "【東証１０時】　記事ID：｢TSOiSS12｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証１０時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "11:00",
+				"job": "【10:50】香港株前引け",
+				"tooltip": "【香港株前引け】　記事ID：｢TSOiHK02｣　ジャンル：｢B8・海外｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "",
+				"ur2": "./manual/2-16_香港株.pdf",
+				"toasterTitle": "香港株前引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "11:00",
+				"job": "【10:50】香港株寄り付き",
+				"tooltip": "【香港株寄り付き】　記事ID：｢TSOiHK01｣　ジャンル：｢B8・海外｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "",
+				"ur2": "./manual/2-16_香港株.pdf",
+				"toasterTitle": "香港株寄り付き",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "09:00",
+				"job": "あああああああああああああ",
+				"tooltip": "【為替８時３０分】　記事ID:｢TSOiMF01｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替８時３０分",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+			{
+				"position": "right",
+				"time": "11:10",
+				"job": "【11:00】逆日歩",
+				"tooltip": "【逆日歩】　記事ID：｢SGW●●001｣　ジャンル：｢Ｎ編成、電子マネ専用Ｅ｣<br>原稿未着は数値Ｇ(☎：２７３１)または経済データ（☎：２１５５）に問い合わせ",
+				"url": "",
+				"ur2": "./manual/2-08_逆日歩.pdf",
+				"toasterTitle": "逆日歩",
+				"toasterBody": "速報ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "10:45",
+				"job": "【11:40】東証前引け",
+				"tooltip": "【東証前引け】　記事ID：｢TSOiSS13｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証前引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "11:45",
+				"job": "【11:40】新興株前引け",
+				"tooltip": "【振興株前引け】　記事ID：｢TSOiSST1｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/",
+				"ur2": "./manual/2-09_新興市場.pdf",
+				"toasterTitle": "新興株前引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+			{
+				"position": "left",
+				"time": "12:25",
+				"job": "【12:20】為替１２時",
+				"tooltip": "【為替１２時】　記事ID:｢TSOiMF04｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１２時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "12:50",
+				"job": "【12:45】東証後場寄り",
+				"tooltip": "【東証後場寄り】　記事ID：｢TSOiSS14｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証後場寄り",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "left",
+				"time": "14:25",
+				"job": "【14:20】為替１４時",
+				"tooltip": "【為替１４時】　記事ID:｢TSOiMF05｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１４時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "14:25",
+				"job": "【14:20】東証１４時",
+				"tooltip": "【東証１４時】　記事ID：｢TSOiSS15｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証１４時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			}
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+			{
+				"position": "left",
+				"time": "15:05",
+				"job": "【15:05】日経平均大引け",
+				"tooltip": "【日経平均大引け】　記事ID：｢T3LTEC1｣　ジャンル：｢M8・国内｣<br>手動で順位付けを（自動では積まれない）<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "日経平均大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "15:15",
+				"job": "【15:10】【ＦＭ】株式大引け",
+				"tooltip":"【ＦＭ】株式大引け　ジャンル：｢TX・ダミー｣<br>ツールで15:30までに作成、内容を中番に確認してもらう<br>ＦＭ為替と一緒に順位付け［①株式②為替］→全送信<br>監視端末のWindows Liveメールで確認",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-10_ＦＭ株.pdf",
+				"toasterTitle": "【ＦＭ】株式大引け",
+				"toasterBody": "売買代金が分かれば、ショートでも、ロングでも、QUICKからでも、ＯＫです"
+			},
+			{
+				"position": "left",
+				"time": "15:25",
+				"job": "【15:20】東証大引け",
+				"tooltip":"【東証大引け】　記事ID：｢TFMiTM●●｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-04_東証●時.pdf",
+				"toasterTitle": "東証大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "right",
+				"time": "15:30",
+				"job": "【15:25】新興株●日",
+				"tooltip":"【新興株●日】　記事ID：｢TSOiSST2｣　ジャンル：｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/marketdata/chart/jasdaqidx/",
+				"ur2": "./manual/2-09_新興市場.pdf",
+				"toasterTitle": "日経平均大引け",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "15:50",
+				"job": "【15:45】通貨インデックス",
+				"tooltip":"【通貨インデックス】　記事ID：｢SY2iCC01｣　ジャンル：｢H3・市況数表｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/worldidx/chart/nk225/",
+				"ur2": "./manual/2-12_日経通貨インデックス配信.pdf",
+				"toasterTitle": "通貨インデックス",
+				"toasterBody": "ツールにデータが届いていないか確認を！"
+			}
+		]
+	}
+]

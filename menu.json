@@ -1,0 +1,73 @@
+[
+	{
+		"big_thema": "ニュース配信",
+		"set":[
+
+			{
+				"genre": "早番（平日）",
+				"title": "早番（平日 7:00～15:00）",
+				"target_json": "news_haya1_check_list"
+			},
+			{
+				"genre": "早番（土曜･日曜･祝）",
+				"title": "早番<br>　土曜・火～金曜祝（7:00～14:00）<br>　日曜・月曜祝（8:00～16:00）<br>",
+				"target_json": "news_haya2_check_list"
+			},
+			{
+				"genre": "市況番",
+				"title": "市況番（9:00～17:00）",
+				"target_json": "news_make_check_list"
+			},
+			{
+				"genre": "ＪＲ番",
+				"title": "ＪＲ番（9:30～18:00）",
+				"target_json": "news_jr_check_list"
+			},
+			{
+				"genre": "Ｄ番",
+				"title": "Ｄ番（10:00～18:00）",
+				"target_json": "news_teiji_check_list"
+			},
+			{
+				"genre": "中番（平日･火-金祝）",
+				"title": "中番（平日・火～金曜の祝日 14:00～18:00）",
+				"target_json": "news_naka1_check_list"
+			},
+			{
+				"genre": "中番（土＆月曜祝）",
+				"title": "中番（土曜と月曜の祝日 14:00～18:00）",
+				"target_json": "news_naka2_check_list"
+			},
+			{
+				"genre": "遅番（平日）",
+				"title": "遅番（平日 15:00～25:00）",
+				"target_json": "news_oso1_check_list"
+			},
+			{
+				"genre": "遅番（土曜･日曜･祝日）",
+				"title": "遅番（土曜・日曜・祝日 15:00～25:00）",
+				"target_json": "news_oso2_check_list"
+			},
+			{
+				"genre": "宅番",
+				"title": "宅番（平日 17:00～ 土曜 18:00～）",
+				"target_json": "news_taku_check_list"
+			}
+		]
+	},
+	{
+		"big_thema": "デジタルG",
+		"set":[
+			{
+				"genre": "WEB刊番",
+				"title": "WEB刊番",
+				"target_json": "●●●●"
+			},
+			{
+				"genre": "マケ番",
+				"title": "マーケット番",
+				"target_json": "●●●●"
+			}
+		]
+	}
+]

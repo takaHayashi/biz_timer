@@ -1,0 +1,42 @@
+.hide{
+    display: none;
+}
+
+a.tgTtip {
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* ツールチップ本体 */
+p.tgToolTip {
+    margin: 0;
+    padding: 0.5em 1em;
+    background-color: #666;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    min-height: 1em;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    z-index: 100;
+    font-size:0.9em;
+}
+
+.dummy {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.tgTtip_manual{
+    margin-top:10px;
+    text-align:right;
+}
+.link_wiki{
+	color:#87cefa;
+}

@@ -1,0 +1,211 @@
+[
+	{
+		"title": "Ｄ番（平日）（10:00～19:00）：チェックリスト"
+	},
+	{
+		"time_zone": 10,
+		"set":[
+			{
+				"position": "left",
+				"time": "10:05",
+				"job": "【10:05】10時05分便の確認",
+				"tooltip": "【10時05分便の確認】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "10時05分便の確認",
+				"toasterBody": "ＴＶ画面で見出しが切れていないかも！"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【10:00】早番から引き継ぎ",
+				"tooltip": "【早番から引き継ぎ】<br>宅番・早番の積み込みをテレビ東京のＴＶ画面で確認<br>空見出しや解禁の外し忘れに注意<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "ＴＶ画面の確認",
+				"toasterBody": "テレビ東京のデジタル放送画面で"
+            },
+            {
+				"position": "Right",
+				"time": "24:00",
+				"job": "【随時】定時原稿の積み込み",
+				"tooltip": "【E1、S1、G1に積む】10:05,12:00,13:00,14:01,16:00に送出<br>共通・独自不問。共同も使用可<br>定時見出しは全角・半角かかわらず（全て１文字として数えて30文字以内）<br>夕刊外(電子版専用･速報原稿)も使用可。解禁時間に注意<br>金融(銀行･証券･保険)はS1でなくE1に<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時原稿の積み込み",
+				"toasterBody": "差し替えに注意！"
+            }
+		]
+	},
+	{
+		"time_zone": 11,
+		"set":[
+            {
+				"position": "left",
+				"time": "11:40",
+				"job": "【11:30】夕刊１版確認",
+				"tooltip": "【夕刊１版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "夕刊１版確認",
+				"toasterBody": "紙面の扱いで順位付けを！"
+			},
+			{
+				"position": "left",
+				"time": "11:50",
+				"job": "【11:50】順位付け 12時更新分",
+				"tooltip": "【順位付け 12時更新分】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "順位付け 12時更新分",
+				"toasterBody": "扱いや送出時間に配慮"
+			}
+		]
+	},
+	{
+		"time_zone": 12,
+		"set":[
+			{
+				"position": "left",
+				"time": "12:03",
+				"job": "【12:00】12時便の確認",
+				"tooltip": "【12時便の確認】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "12時便の確認",
+				"toasterBody": "ＴＶ画面で見出しが切れていないかも！"
+			},
+			{
+				"position": "left",
+				"time": "12:15",
+				"job": "【12:00】夕刊３版確認",
+				"tooltip": "【夕刊３版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br>確認依頼は25F統括デスク(2017)<BR><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "夕刊３版確認",
+				"toasterBody": "紙面の扱いで順位付けを！"
+			},
+			{
+				"position": "left",
+				"time": "12:50",
+				"job": "【12:50】順位付け　13時更新分",
+				"tooltip": "【順位付け　13時更新分】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "順位付け　13時更新分",
+				"toasterBody": "扱いや送出時間に配慮"
+			},
+            {
+				"position": "Right",
+				"time": "24:00",
+				"job": "【随時】翌日朝刊原稿の積み込み",
+				"tooltip": "【朝刊原稿の積み込み】Ｄ番帯に届いた翌朝刊の原稿を積む。共同も使用可<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時原稿の積み込み",
+				"toasterBody": "差し替えに注意！"
+            }
+		]
+	},
+	{
+		"time_zone": 13,
+		"set":[
+			{
+				"position": "left",
+				"time": "13:03",
+				"job": "【13:00】13時便の確認",
+				"tooltip": "【13時便の確認】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "13時便の確認",
+				"toasterBody": "ＴＶ画面で見出しが切れていないかも！"
+			},
+			{
+				"position": "left",
+				"time": "13:40",
+				"job": "【13:15】夕刊４版確認",
+				"tooltip": "【夕刊４版を確認】<br>紙面一覧で夕１面、夕総合などをチェック<br>テレビ東京のデジタル放送画面も確認<br>電子版の渾身もチェックしておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b>（月～土 6:15 更新、日曜 10:05 更新）</font>",
+				"url": "https://www.nikkei.com/paper/",
+				"ur2": "",
+				"toasterTitle": "夕刊４版確認",
+				"toasterBody": "紙面の扱いで順位付けを！"
+			},
+			{
+				"position": "left",
+				"time": "13:50",
+				"job": "【13:50】順位付け 14時01更新分",
+				"tooltip": "【順位付け 14時01更新分】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "順位付け 14時01更新分",
+				"toasterBody": "扱いや送出時間に配慮"
+			}
+		]
+	},
+	{
+		"time_zone": 14,
+		"set":[
+			{
+				"position": "left",
+				"time": "14:01",
+				"job": "【14:01】14時01分便の確認",
+				"tooltip": "【14時01分便の確認】<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "14時01分便の確認",
+				"toasterBody": "ＴＶ画面で見出しが切れていないかも！"
+            }
+		]
+	},
+	{
+		"time_zone": 15,
+		"set":[
+            {
+				"position": "left",
+				"time": "15:45",
+				"job": "【15:45】順位付け 16:00便向け",
+				"tooltip": "【順位付け 16:00便向け】16時更新までに順位付けを完了･再確認しておく<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "順位付け",
+				"toasterBody": "ＮＱＮの決算原稿も"
+            }
+		]
+	},
+	{
+		"time_zone": 16,
+		"set":[
+            {
+				"position": "left",
+				"time": "16:00",
+				"job": "【16:00】Ｄ番帯最終便の確認",
+				"tooltip": "【Ｄ番帯最終便の確認】16時更新をＴＶ画面で確認<br><font color='#00FFFF'><b>確認→テレビ東京のデジタル放送画面</b></font>",
+				"url": "",
+				"ur2": "./manual/4-02_定時・原稿編集.pdf",
+				"toasterTitle": "順位付け",
+				"toasterBody": "次回のＴＶ画面更新は23時"
+            }
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+            {
+				"position": "left",
+				"time": "24:00",
+				"job": "【18:00】宅番へ引き継ぎ",
+				"tooltip": "【宅番へ引き継ぎ】16:00以降、各ジャンルに何本積んだか報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "順位付け",
+				"toasterBody": "次回のＴＶ画面更新は23時"
+            }
+		]
+	}
+]

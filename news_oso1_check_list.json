@@ -1,0 +1,220 @@
+[
+	{
+		"title": "中番（平日）（14:00～18:15）：チェックリスト"
+	},
+	{
+		"time_zone": 16,
+		"set":[
+            {
+				"position": "left",
+				"time": "16:45",
+				"job": "【16:30】ＭＪダイジェストの内容確認",
+				"tooltip": "【ＭＪダイジェストの内容確認】<br>中番が作成したダイジェストの内容を確認する。記事ID:SE2IDR01<br>通常10本。最終のトレンド面は必ず使う",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＭＪダイジェスト作成",
+				"toasterBody": "１面のインデックスを優先採用"
+			}
+		]
+	},
+	{
+		"time_zone": 17,
+		"set":[
+            {
+				"position": "left",
+				"time": "17:25",
+				"job": "【17:20】為替１７時",
+				"tooltip": "【為替１７時】<br>記事ID:｢TSOiMF05｣　ジャンル:｢M8・国内｣<br>原稿未着はＮＱＮに問い合わせ(☎：２４９２)",
+				"url": "https://www.nikkei.com/markets/kawase/",
+				"ur2": "./manual/2-03_外為●時.pdf",
+				"toasterTitle": "為替１７時",
+				"toasterBody": "定時ファイルに原稿が届いていないか確認を！"
+            },
+            {
+				"position": "left",
+				"time": "17:25",
+				"job": "【17:20】共同天気",
+				"tooltip": "【共同天気】<br>COMETに自動作成された＜天気概況＞と＜［各地の●日の天気予報］を送出<br>天気概況から先に送出する＜種別：共通＞＜著作権設定：制限なし＞＜自動送り「なし」＞<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「社会・スポーツ」</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "共同天気",
+				"toasterBody": "COMETに自動作成されていませんか？"
+			},
+            {
+				"position": "left",
+				"time": "17:35",
+				"job": "【17:45まで】ＪＲ：天気",
+				"tooltip": "【ＪＲ：天気】<br>ＪＲ各社へ天気ツールを使用し作成（３本）<br>携帯向け　記事ID：｢TJRITWWW｣　ジャンル：｢JR｣と｢JK｣<br>西日本　記事ID：｢TJRITWN1｣　ジャンル：｢JW｣<br>北陸　記事ID：｢TJRITWH1｣　ジャンル：｢JH｣<br>ツールが使えない場合は日経ＨＰの天気情報（下記の参照はこちら）から手動で作成<br>基準書：ＪＲ天気エラー対応.pdf参照<br><font color='#00FFFF'><b>確認→順位付け画面「JR/JK/JE/JW/JH」</b></font>",
+				"url": "https://weather.yahoo.co.jp/weather/",
+				"ur2": "./manual/3-04_ＪＲ今日の天気.pdf",
+				"toasterTitle": "ＪＲ：天気",
+				"toasterBody": "情報が更新されない場合は手動作成！"
+			}
+		]
+    },
+    {
+        "time_zone": 18,
+		"set":[
+            {
+				"position": "left",
+				"time": "18:30",
+				"job": "【18:30頃】東証株式の各種指標",
+				"tooltip": "【東証株式の各種指標を送出】<br>速報ファイルに届いた原稿を電子版の国内株式指標と見比べ、合っていれば記事ＩＤ（末尾が１から４）の順に送出",
+				"url": "https://www.nikkei.com/markets/kabu/japanidx/",
+				"ur2": "2-14_東証株式・各種指標(和文).pdf",
+				"toasterTitle": "東証株式の各種指標",
+				"toasterBody": "記事ＩＤ（末尾が１から４）の順に送出"
+            },
+            {
+				"position": "left",
+				"time": "18:30",
+				"job": "【18:30ころ】国債インデックス",
+				"tooltip": "【国債インデックス】<br>記事ID：｢SH3INK01｣　ジャンル：｢H3・市況数表｣<br>メールと 比較、見出しに当日の日付を入力。メール未着はデータ事業部に問い合わせ（☎：２５８０）<br><font color='#00FFFF'><b>確認→QUICK端末「日経新聞／日経QUICK」→「外為金利関数表」と「NIKKEI Report」</b></font>",
+				"url": "",
+				"ur2": "./manual/2-05_日経公社債インデックス配信.pdf",
+				"toasterTitle": "2-05_日経公社債インデックス配信.pdf",
+				"toasterBody": "ツールにデータが届いていないか確認を！"
+			},
+			{
+				"position": "left",
+				"time": "19:00",
+				"job": "【18:30ころ】きょう日 割付MAIL返信",
+				"tooltip": "【きょう日 広告割付MAILに返信】<br>広告割り付けのメールが届いたら確認のメールを返信する",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "きょう日 広告割付MAILに返信",
+				"toasterBody": "印刷は宅番に依頼する"
+			},
+			{
+				"position": "right",
+				"time": "24:00",
+				"job": "【18:00】中番から引き継ぎ",
+				"tooltip": "【中番から引き継ぎ】",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "中番から引き継ぎ",
+				"toasterBody": ""
+            },
+            {
+				"position": "right",
+				"time": "24:00",
+				"job": "【随時】スポーツの積み込み",
+				"tooltip": "【スポーツの積み込み】<br>各版の運動面を確認<br>ロイター共同は使用不可<br>大相撲（場所中）①中入り後勝負（②星取表、③成績上位力士）④（あすの）中入り後取組の順に送出<br> ※「星取表」「成績上位力士 (QUICK のみ・優勝決定後と千秋楽はなし 」は 10 日目から<br><font color='#00FFFF'><b>確認→日経電子版、スポーツ「速報」</b></font>",
+				"url": "https://www.nikkei.com/news/category/sports/",
+				"ur2": "./manual/5-01_スポーツ.pdf",
+				"toasterTitle": "スポーツ更新",
+				"toasterBody": "指示書と各版のスポーツ面を確認！"
+            }
+		]
+    },
+    {
+		"time_zone": 19,
+		"set":[
+			{
+				"position": "left",
+				"time": "19:00",
+				"job": "金曜 【19:00ころ】VSのIMG本番反映 ",
+				"tooltip": "【ヴェリタスのイメージを本番反映】<br>降版が早ければ早番作業<br>全頁がステージンになったら作業<br>編集面以外の「イメージのみ」を本番反映待に",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "VSのイメージ本番反映",
+				"toasterBody": "「イメージのみ」を本番反映待に"
+			},
+            {
+				"position": "left",
+				"time": "19:15",
+				"job": "金曜 【19:15】ＶＳダイジェスト作成",
+				"tooltip": "【ＶＳダイジェスト作成】<br>解禁：土曜（付日の１日前）の午前0:00。ID:SE2IV01。送出先がQUICK のみなため30文字縛りなし。目次や「今週の注目記事」を参考に５本を選び作成し、宅番に確認を依頼",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＶＳダイジェスト作成",
+				"toasterBody": "インデックスの見出しを参照"
+			}
+		]
+    },
+    {
+		"time_zone": 20,
+		"set":[
+            {
+				"position": "left",
+				"time": "20:15",
+				"job": "【20:00】きょう日 IMGのみの本番反映",
+				"tooltip": "【きょう日 IMGのみの本番反映】<br>紙面イメージが届いたら「イメージのみ」を本番反映待ちに",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "IMGのみの本番反映",
+				"toasterBody": "「面建て」参照"
+			}
+		]
+    },
+    {
+		"time_zone": 21,
+		"set":[
+			{
+				"position": "left",
+				"time": "21:00",
+				"job": "【21:00】SSダイジェスト作成 ※翌日付",
+				"tooltip": "【ＳＳダイジェスト】<br>翌日付があれば。記事ID「SE2IDS01」、解禁：付日の午前0:00<br>通常10本、総合面、新製品面、最終面は使わない。遅番に確認依頼。",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＳＳダイジェスト",
+				"toasterBody": "解禁：付日の午前0:00"
+            },
+            {
+				"position": "left",
+				"time": "21:45",
+				"job": "【21:40】企業コードメンテ",
+				"tooltip": "【企業コードメンテ】<br>NEO運管の「企業コードテーブル」と<br>「電子版の株価情報データベース」を比較する。<br>翌日付の新規上場:テーブルにコードあり＆会社情報 DIGITAL 未登録<br>上場廃止:売買最終日ならテーブルの東証コードを削除<br>翌日付の商号変更:テーブルに新名称＆会社情報 DIGITAL は旧名称<br>日本取引所グループのＨＰ参照",
+				"url": "https://www.jpx.co.jp/listing/index.html",
+				"ur2": "./manual/6-05_企業コード.pdf",
+				"toasterTitle": "企業コードメンテ",
+				"toasterBody": "東証のページも参照"
+			}
+		]
+    },
+    {
+		"time_zone": 22,
+		"set":[
+            {
+				"position": "left",
+				"time": "22:30",
+				"job": "【22:30】きょう日 地経面の「待」確認",
+				"tooltip": "【きょう日 地経面の「待」確認】地域経済面がすべて降版され、本番反映「待」になったかを確認する<br>仕様のため、首都圏東京のみステ確で表示されない",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "地経面の「待」確認",
+				"toasterBody": "首都圏東京は表示されない"
+			}
+		]
+    },
+    {
+		"time_zone": 23,
+		"set":[
+            {
+				"position": "left",
+				"time": "23:30",
+				"job": "【23:30】朝刊ＦＭ作成",
+				"tooltip": "【朝刊ＦＭを作成】<br>ID：｢TFMITA@@｣、1 面と企業系面から５本（共同は使用不可）を選んで作成。<br>分量20倍×20行、見出し・本文とも全角、見出しは定時に<br>文頭の記者名を削る、人名にルビ",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "朝刊ＦＭ",
+				"toasterBody": "1 面と企業系面などから５本（共同は使用不可）を選んで作成"
+			}
+		]
+    },
+    {
+		"time_zone": 23,
+		"set":[
+            {
+				"position": "right",
+				"time": "25:00",
+				"job": "【24:00】宅番へ引き継ぎ",
+				"tooltip": "【宅番へ引き継ぎ】スポーツの積み込み状況、きょう日の反映待ち状況と面設定の戻しの有無など報告",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "",
+				"toasterBody": ""
+            }
+		]
+    }
+]

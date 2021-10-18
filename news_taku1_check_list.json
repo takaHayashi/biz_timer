@@ -1,0 +1,151 @@
+[
+	{
+		"title": "中番（平日）（14:00～18:15）：チェックリスト"
+	},
+	{
+		"time_zone": 17,
+		"set":[
+            {
+				"position": "left",
+				"time": "17:45",
+				"job": "日～金 【17:45】前日出来高",
+				"tooltip": "【前日出来高】ＱＵＩＣＫ端末から値を抽出。ＵＳＢ経由で作成",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "前日出来高",
+				"toasterBody": "株為替ツールで作成しましょう♪"
+			},
+			{
+				"position": "right",
+				"time": "27:00",
+				"job": "【随時】定時積み込み 最終23時",
+				"tooltip": "【定時積み込み 最終23時】★あれば差し替える<br><font color='#00FFFF'><b>確認→順位付け画面「E1/S1/G1」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+            {
+				"position": "right",
+				"time": "27:00",
+				"job": "【随時】ＪＲ作成 最終23:45",
+				"tooltip": "【ＪＲ作成 最終23:45】<br><font color='#00FFFF'><b>確認→順位付け画面「JR」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ積み込み",
+				"toasterBody": "渾身を参考に！"
+            }
+		]
+	},
+	{
+		"time_zone": 18,
+		"set":[
+
+		]
+    },
+    {
+        "time_zone": 19,
+		"set":[
+            {
+				"position": "left",
+				"time": "19:30",
+				"job": "【19:30】きょう日 整理とリンク確認",
+				"tooltip": "【きょう日 広告整理とリンク確認】広告面にURLリンクがあれば、広告整理部の立ち会いでリンク遷移を確認する。<br>紙面イメージが届いたら「イメージのみ」を本番反映",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "整理とリンク確認",
+				"toasterBody": "「紙面予定」参照"
+            }
+		]
+    },
+    {
+		"time_zone": 20,
+		"set":[
+
+		]
+    },
+    {
+		"time_zone": 21,
+		"set":[
+			{
+				"position": "left",
+				"time": "21:15",
+				"job": "【21:15】SSダイジェスト内容確認",
+				"tooltip": "【ＳＳダイジェスト】<br>翌日付があれば。記事ID「SE2IDS01」、解禁：付日の午前0:00<br>通常10本、総合面、新製品面、最終面は使わない。遅番に確認依頼。",
+				"url": "",
+				"ur2": "./manual/7-01_専門紙ダイジェスト（再構成）.pdf",
+				"toasterTitle": "ＳＳダイジェスト",
+				"toasterBody": "解禁：付日の午前0:00"
+            }
+		]
+    },
+    {
+		"time_zone": 22,
+		"set":[
+			{
+				"position": "left",
+				"time": "22:45",
+				"job": "【22:45】定時の順位付け 23時向け",
+				"tooltip": "【定時:順位付け 23時向け】順位は紙面での扱いを参考に。★あれば差し替える<br><font color='#00FFFF'><b>確認→順位付け画面「E1/S1/G1」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            }
+		]
+    },
+    {
+		"time_zone": 23,
+		"set":[
+			{
+				"position": "left",
+				"time": "23:00",
+				"job": "【23:00】定時最終便のＴＶ確認",
+				"tooltip": "【定時:朝用の積み込み】ＴＶ画面でデータ放送配信を確認（Ｅ１、Ｓ１）",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+			},
+			{
+				"position": "left",
+				"time": "23:45",
+				"job": "【23:45】ＪＲ最終便のＴＶ確認",
+				"tooltip": "【ＪＲ最終便のＴＶ確認】ＴＶ画面でデータ放送配信を確認",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+			{
+				"position": "left",
+				"time": "23:50",
+				"job": "【23:50】ＦＭの内容確認と印刷",
+				"tooltip": "【朝刊ＦＭの内容確認と印刷】　記事の更新（赤字／続報）を確認<br>作成時より後に訂正や続報がきていたら差し替える<br>再送後は順位付けの確認を<br><font color='#00FFFF'><b>確認→順位付け画面「朝刊ＦＭニュース」</b></font>",
+				"url": "",
+				"ur2": "",
+				"toasterTitle": "朝刊ＦＭの内容確認",
+				"toasterBody": "記事の更新を確認！"
+			},
+			{
+				"position": "right",
+				"time": "23:00",
+				"job": "【23:00より】朝用の積み込み",
+				"tooltip": "【定時:朝用の積み込み】★あれば差し替える<br><font color='#00FFFF'><b>確認→順位付け画面「E1/S1/G1」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/4-01_定時・全体の流れ.pdf",
+				"toasterTitle": "定時ニュース積み込み",
+				"toasterBody": "順位付けも忘れずに！"
+            },
+			{
+				"position": "right",
+				"time": "23:50",
+				"job": "【随時】ＪＲ：朝用の作成",
+				"tooltip": "【ＪＲ：朝用の作成】０時以降解禁の原稿や、遅く届いた原稿で２～４本作成<br>原稿が午前１、２時解禁の場合は４時解禁をつける<br>土日、および翌日の海外市場が休場の場合は固定枠の下２本（株為替エリア）も入れ替える<br><font color='#00FFFF'><b>確認→順位付け画面「JR」</b></font>",
+				"url": "https://www.nikkei.com/",
+				"ur2": "./manual/3-01_JR向け記事.pdf",
+				"toasterTitle": "ＪＲ積み込み",
+				"toasterBody": "渾身を参考に！"
+			}
+		]
+	}
+]
